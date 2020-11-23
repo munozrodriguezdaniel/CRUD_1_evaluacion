@@ -1,0 +1,20 @@
+{
+  "name": "proyecto_primera_evaluacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.10.0",
+    "mongoose": "^5.10.13"
+  }
+}
