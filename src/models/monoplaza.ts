@@ -89,7 +89,7 @@ export class Monoplaza {
         combustible_por = (combustible_res * 100) / this._combustible
         vueltas_res = 50 - this._vuelta_actual
         consumo_fut = consumo_v * vueltas_res
-        return 'Le quedan '+ combustible_res +' L ('+ combustible_por +'%) en las proximas '+ vueltas_res +' vueltas si sigue en este modo va a conumir '+ consumo_fut
+        return 'Le quedan '+ combustible_res +' L ('+ combustible_por +'%) en las proximas '+ vueltas_res +' vueltas si sigue en este modo va a conumir '+ consumo_fut +' L'
     }
 
     mostrarNeumaticos(){
@@ -131,7 +131,7 @@ export class Monoplaza {
         degradado_res = 100 - degradado
         vueltas_res_n = (degradado_res * this._vuelta_actual) / degradado 
         vuelta_res = 50 - this._vuelta_actual
-        return 'El neumatico actual se ha degradado un '+ degradado +'% le quedan '+ vueltas_res_n +' vueltas de vida y quedan '+ vuelta_res
+        return 'El neumatico actual se ha degradado un '+ degradado +'% le quedan '+ vueltas_res_n +' vueltas de vida y quedan '+ vuelta_res +' vueltas'
     }
 
     mostrarCAerodinamica(){

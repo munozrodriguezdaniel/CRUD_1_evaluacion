@@ -245,7 +245,6 @@ const main = async() => {
                         }
                     })
                 await db.desconectarBD()
-                break
             break
             case 0:
                 console.log('\n--ADIÓS--')

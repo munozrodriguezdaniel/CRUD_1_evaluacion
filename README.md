@@ -1,0 +1,1 @@
+Este programa permite crear monoplazas, modificarlos, borrarlos y saber tanto informacion general como informacion especifica que se calcula mediante los campos del monoplaza.
